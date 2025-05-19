@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://final-api-pf8l.onrender.com")
 @RequestMapping("/basilio/posts")
 public class PostController {
 
